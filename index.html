@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>twitter clone</title>
+  </head>
+  <body>
+    <section class="mainpage">
+      <div class="left">
+        <div class="left-content">
+          <div>
+            <i class="fas fa-search"></i>
+            <h3 class="left-heading-content">find your interest</h3>
+          </div>
+          <div>
+            <i class="fas fa-user-friends"></i>
+            <h3 class="left-heading-content">
+              Explore what people are talking about
+            </h3>
+          </div>
+          <div>
+            <i class="fas fa-comment"></i>
+            <h3 class="left-heading-content">join the people</h3>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <form class="right-content-form">
+          <input
+            class="user-info"
+            type="text"
+            placeholder="phone,email,username"
+          />
+          <div>
+            <input type="password" class="password1" placeholder="password" />
+            <label>forgot password?</label>
+          </div>
+        </form>
+
+        <div class="middle-content">
+          <i class="fas fa-dove"></i>
+          <h1>Explore what's happening in the world</h1>
+          <h4>join twirrer today</h4>
+          <button type="button" class="sign-up">sign-up</button>
+          <button type="button" class="log-in">log-in</button>
+        </div>
+      </div>
+
+      <footer class="main-page-footer">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Apps</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Setting</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Status</a></li>
+          <li><a href="#">Brand</a></li>
+          <li><a href="#">&copy;2022 twirrer</a></li>
+        </ul>
+      </footer>
+    </section>
+    <!-- loginPage start -->
+    <section class="login-page">
+      <nav class="login-page-nav">
+        <ul>
+          <li class="brand">
+            <a href="#"><i class="fas fa-dove"></i>Home</a>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Language:English</a></li>
+        </ul>
+      </nav>
+      <div class="login">
+        <div class="login-content">
+          <h2>log in to Twirrer</h2>
+          <form class="login-form">
+            <input type="text" placeholder="phone,email or username" />
+            <input type="password" placeholder="password" />
+            <div>
+              <button type="button" class="login-form-btn">log-in</button>
+              <input type="checkbox" class="login-form-checkbox" id="" />
+              <label for="check">Remember me</label>
+              <a href="#">forgot password?</a>
+            </div>
+          </form>
+        </div>
+        <footer class="login-footer">
+          <p>New to Twirrer?<a href="#">Sign up now</a></p>
+          <p>
+            Already using Twirrer via text maessage
+            <a href="#">Activate your acount</a>
+          </p>
+        </footer>
+      </div>
+    </section>
+
+    <section class="feeds-page">
+      <nav class="feeds-nav">
+        <div class="icons">
+          <a href="#" class="active"><i class="fas fa-home"></i></a>
+          <a href="#"><i class="fas fa-hashtag"></i></a>
+          <a href="#"><i class="fas fa-bell"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            placeholder="search Twirrer"
+            class="search-bar-input"
+          />
+        </div>
+        <div class="user">
+          <div class="user-img-wrapper">
+            <img src="images/user1.jpg" width="40px" />
+          </div>
+          <a href="#" class="user-link">jane smith</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </nav>
+      <div class="feeds-content">
+        <div class="feeds-header" style="padding-top: 6.5rem">
+          <div class="header-top">
+            <h4>Home</h4>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="header-post">
+            <div class="header-img-wrapper">
+              <img src="images/user1.jpg" alt="" width="40px" />
+            </div>
+            <input type="text" placeholder="what's happenng" />
+            <i class="fas fa-image"></i>
+            <i class="fas fa-camera"></i>
+            <i class="fas fa-chart-bar"></i>
+          </div>
+        </div>
+        <!-- posts1 -->
+        <div class="posts">
+          <div class="post">
+            <div class="user-avater">
+              <img src="images/user5.jpg" alt="" />
+            </div>
+            <div class="post-content">
+              <div class="post-user-info">
+                <h4>Helen Brown</h4>
+                <i class="fas fa-check-circle"></i>
+                <span>@Helenbrown 15min</span>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                facere libero excepturi laudantium facilis voluptate, magni
+                explicabo ratione expedita, deserunt adipisci porro aperiam
+                vitae maiores odio animi officiis dolore nostrum?
+              </p>
+              <div class="post-img">
+                <img src="images/stream.jfif" alt="" />
+              </div>
+              <div class="post-icons">
+                <i class="fas fa-comment"></i><i class="fas fa-retweet"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+          </div>
+          <!-- post2 -->
+          <div class="post">
+            <div class="user-avater">
+              <img src="images/user3.jpg" alt="" />
+            </div>
+            <div class="post-content">
+              <div class="post-user-info">
+                <h4>John Doe</h4>
+                <i class="fas fa-check-circle"></i>
+                <span>@John Doe 35min</span>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                facere libero excepturi laudantium facilis voluptate, magni
+                explicabo ratione expedita, deserunt adipisci porro aperiam
+                vitae maiores odio animi officiis dolore nostrum?
+              </p>
+              <div class="post-img">
+                <img src="images/stream.jfif" alt="" />
+              </div>
+              <div class="post-icons">
+                <i class="fas fa-comment"></i><i class="fas fa-retweet"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+          </div>
+          <!-- post3 -->
+          <div class="post">
+            <div class="user-avater">
+              <img src="images/user4.jpg" alt="" />
+            </div>
+            <div class="post-content">
+              <div class="post-user-info">
+                <h4>John Thompson</h4>
+                <i class="fas fa-check-circle"></i>
+                <span>@John Thompson 1hr</span>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                facere libero excepturi laudantium facilis voluptate, magni
+                explicabo ratione expedita, deserunt adipisci porro aperiam
+                vitae maiores odio animi officiis dolore nostrum?
+              </p>
+              <div class="post-img">
+                <img src="images/stream.jfif" alt="" />
+              </div>
+              <div class="post-icons">
+                <i class="fas fa-comment"></i><i class="fas fa-retweet"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+          </div>
+          <!-- post4 -->
+          <div class="post">
+            <div class="user-avater">
+              <img src="images/user2.png" alt="" />
+            </div>
+            <div class="post-content">
+              <div class="post-user-info">
+                <h4>Jamedias</h4>
+                <i class="fas fa-check-circle"></i>
+                <span>@Jamesdias 1h 07mins</span>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                facere libero excepturi laudantium facilis voluptate, magni
+                explicabo ratione expedita, deserunt adipisci porro aperiam
+                vitae maiores odio animi officiis dolore nostrum?
+              </p>
+              <div class="post-img">
+                <img src="images/stream.jfif" alt="" />
+              </div>
+              <div class="post-icons">
+                <i class="fas fa-comment"></i><i class="fas fa-retweet"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+          </div>
+          <!-- post5 -->
+          <div class="post">
+            <div class="user-avater">
+              <img src="images/user6.jpeg" alt="" />
+            </div>
+            <div class="post-content">
+              <div class="post-user-info">
+                <h4>Cynthia A</h4>
+                <i class="fas fa-check-circle"></i>
+                <span>@Cynthia A 1hr 37min</span>
+              </div>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                facere libero excepturi laudantium facilis voluptate, magni
+                explicabo ratione expedita, deserunt adipisci porro aperiam
+                vitae maiores odio animi officiis dolore nostrum?
+              </p>
+              <div class="post-img">
+                <img src="images/stream.jfif" alt="" />
+              </div>
+              <div class="post-icons">
+                <i class="fas fa-comment"></i><i class="fas fa-retweet"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="follow">
+          <h3 class="follow heading">Who to follow</h3>
+          <div class="follow-user">
+            <div class="follow-user-img">
+              <img src="images/user3.jpg" alt="" />
+            </div>
+            <div class="follow-user-info">
+              <h4>Ann smith</h4>
+              <p>@annsmith</p>
+            </div>
+            <button type="button" class="follow-btn">Follow</button>
+          </div>
+          <div class="follow-user">
+            <div class="follow-user-img">
+              <img src="images/user4.jpg" alt="" />
+            </div>
+            <div class="follow-user-info">
+              <h4>Nick Deo</h4>
+              <p>@nickdeo</p>
+            </div>
+            <button type="button" class="follow-btn">Follow</button>
+          </div>
+          <div class="follow-user">
+            <div class="follow-user-img">
+              <img src="images/user6.jpeg" alt="" />
+            </div>
+            <div class="follow-user-info">
+              <h4>james smith</h4>
+              <p>@jamesmith</p>
+            </div>
+            <button type="button" class="follow-btn">Follow</button>
+          </div>
+          <div class="follow-link">
+            <a href="#"> Show more</a>
+          </div>
+          <footer class="follow-footer">
+            <ul>
+              <li><a href="#"> Terms</a></li>
+              <li><a href="#"> Privacy policy</a></li>
+              <li><a href="#"> Cookies</a></li>
+              <li><a href="#"> About</a></li>
+              <li><a href="#"> More</a></li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+      <button type="button" class="post-btn">
+        + <i class="fas fa-feather-alt"></i>Post
+      </button>
+    </section>
+  </body>
+</html>
